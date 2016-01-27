@@ -4,6 +4,7 @@ This repository contains the source for our two websites.
 
 ## Developer Website
 Contains CSE 403: Software Engineering classroom submissions.
+Visit: http://blastcse.github.io/
 - Project Proposal Doc/Slides
 - Software Requirements Specification: Product Description, UI Diagrams, Use Cases, Process Description, Risk Analysis
 
