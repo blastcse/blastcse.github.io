@@ -1,6 +1,6 @@
 # BLAST
 
-This repository contains the source for our two websites.
+This repository contains the source for BLAST's two websites.
 
 ## Developer Website
 Contains CSE 403: Software Engineering classroom submissions.
