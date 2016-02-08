@@ -191,20 +191,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-/*
-.cover {
-	position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
-	background-image: url(../img/party.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-*/
+
 header .header-content {
     position: relative;
     width: 100%;
