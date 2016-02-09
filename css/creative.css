@@ -129,24 +129,24 @@ section {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
     }
-	/*home button*/
+    /*home button*/
     .navbar-default .navbar-header .navbar-brand {
-        color: #f05f40;		
+        color: #f05f40;     
     }
 
-	/*home button hover*/
+    /*home button hover*/
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
         color: black;
     }
-	
-	/*nav buttons*/
+    
+    /*nav buttons*/
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: #f05f40;
     }
-	
-	/*nav buttons hovering*/
+    
+    /*nav buttons hovering*/
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: black;
@@ -204,7 +204,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-	color: #f24e2b;
+    color: #f24e2b;
 }
 
 header .header-content .header-content-inner hr {
@@ -221,11 +221,11 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     header {
         min-height: 100%;
-		color: black;
+        color: black;
     }
 
     header .header-content {
-		color: black;
+        color: black;
         position: absolute;
         top: 50%;
         padding: 0 50px;
@@ -235,7 +235,7 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content .header-content-inner {
-		color: black;
+        color: black;
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
@@ -485,4 +485,34 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.tutorialCol1 {
+    float: left;
+    width: 25%;
+}
+
+.tutorialCol2 {
+    float: left;
+    width: 25%;
+}
+
+.tutorialCol3 {
+    float: left;
+    width: 25%;
+}
+
+.tutorialCol4 {
+    float: left;
+    width: 25%;
+}
+
+.tutorialImg img {
+    height: 98%;
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+.system {
+    clear: left;
 }
