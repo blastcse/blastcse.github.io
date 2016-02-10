@@ -29,6 +29,7 @@ header a {
     -moz-transition: all .35s;
     transition: all .35s;
 }
+
 p.text-muted a {
     color: #f05f40;
     -webkit-transition: all .35s;
@@ -269,13 +270,15 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
-
-
 .portfolio-box {
     display: block;
     position: relative;
-    margin: 0 auto;
-    max-width: 650px;
+	max-width: 650px;
+	
+    margin: 2%;
+	padding: 2px;
+	float: left;
+    width: 46%;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -488,6 +491,8 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+/*custom css for Blast*/
+
 .tutorialCol1 {
     float: left;
     width: 25%;
@@ -503,13 +508,13 @@ body {
     width: 25%;
 }
 
-.tutorialCol4 {
-    float: left;
+.tutorialCol4 {    
+	float: left;
     width: 25%;
 }
 
 .tutorialImg img {
-    height: 98%;
+	height: 98%;
     width: 98%;
     margin-bottom: 20px;
 }
