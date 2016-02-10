@@ -273,12 +273,12 @@ header .header-content .header-content-inner p {
 .portfolio-box {
     display: block;
     position: relative;
-	max-width: 650px;
+	max-width: 400px;
 	
-    margin: 2%;
+    margin: 1%;
 	padding: 2px;
 	float: left;
-    width: 46%;
+    width: 23%;
 }
 
 .portfolio-box .portfolio-box-caption {
