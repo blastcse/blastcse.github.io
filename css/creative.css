@@ -493,6 +493,20 @@ body {
 
 /*custom css for Blast*/
 
+.team-member {
+	text-align: center;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.team-member img {
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+	width: 80%;
+}
+
 .tutorialCol1 {
     float: left;
     width: 25%;
