@@ -435,20 +435,84 @@ header .header-content .header-content-inner p {
     transition: all .3s ease-in-out;
 }
 
+.tada {
+     border: 0;
+     border-radius: 300px;
+	 padding: 15px;
+     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+     font-weight: 700;
+ }
+
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
-    background-color: transparent;
+     border-color: #fff;
+     color: #A8422C;
+     background-color: #fff;
+     -webkit-transition: all .35s;
+     -moz-transition: all .35s;
+     transition: all .35s;
+ }
+ 
+ .btn-default:hover,
+ .btn-default:focus,
+ .btn-default.focus,
+ .btn-default:active,
+ .btn-default.active,
+ .open > .dropdown-toggle.btn-default {
+     border-color: #ededed;
+     color: #222;
+     background-color: #f2f2f2;
+ }
+ 
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+	background-image: none;
+}
+ 
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    border-color: #fff;
+    background-color: #fff;
 }
 
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #42dca3;
-    outline: 0;
-    color: #000;
-    background-color: #42dca3;
+.btn-primary {
+     border-color: #f05f40;
+     color: #fff;
+     background-color: #f05f40;
+     -webkit-transition: all .35s;
+     -moz-transition: all .35s;
+     transition: all .35s;
+}
+	 
+-.btn-default .badge {
+ -    color: #fff;
+ -    background-color: #222;
 }
 
+.btn-primary .badge {
+     color: #f05f40;
+     background-color: #fff;
+ }
+
+-.btn-xl {
+ padding: 15px 30px
+  }
 
 ::-moz-selection {
     text-shadow: none;
